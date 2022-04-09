@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#cc0000",
+  "navigationBarTitleText": "个人简历",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-uploader": "@vant/weapp/uploader/index"
+  }
+}

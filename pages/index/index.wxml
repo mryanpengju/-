@@ -1,0 +1,214 @@
+<view class="headbag">
+  <view class='margin-10'>
+    <view class="userinfo">
+      <!-- <image class="userinfo-avatar" src="/imgs/resume/icon.jpg" background-size="cover"></image> -->
+      <van-uploader class="userinfo-avatar" deletable="{{false}}" file-list="{{ fileList }}" accept="image" max-count="1" bind:after-read="afterRead" />
+      <text class="userinfo-nickname">{{userinfo.nickName}}</text>
+    </view>
+  </view>
+  <view class='portrait'>
+    <view class='TrueName'>闫鹏举 (郑州)</view>
+    <view class='describe'>
+      <view>前端工程师 · 杭州博彦科技</view>
+      <view>男 | 27岁 | 5年以上开发经验 | 本科 </view>
+      <text bindtap='phonecall' data-mobile="17521015950">M. 18621377074
+        E. haishangmingyue@aliyun.com</text>
+    </view>
+  </view>
+
+  <view class='superiority'>
+    热爱前端技术，做过技术leader。希望用面试来证明自己是最合适的人选。
+  </view>
+  <view class='clear'></view>
+
+
+  <view class="flex-container">
+    <view class="flex-item flex-item1">
+      <image class='image' src='/imgs/resume/work.png'></image>
+    </view>
+    <view class="flex-item flex-item2">
+      <view class='ledtop'>
+        <view class='led'>杭州博彦科技</view>
+        <view class='position'>任职:【 前端工程师 】</view>
+        <view class='deadline'>期限:【 2017.09 - 至今 】</view>
+        <view class='JobDescription'>
+          <text>1、在此期间负责招聘组建培训团队，项目bug测试、项目质量把控，制作技术开发文档、项目任务实施安排等。
+            2、担任系统架构设计及前端开发，负责项目的整个开发流程。。
+            3、为公司重大决策项目、新产品技术项目的立项和开发提供建议和指导；
+            4、协助后端开发人员完成前端页面的开发与前端Web应用的对接等；
+            5、使用的技术有：html+css+js+React+webpack+灵犀+乐高+antd+fetch+AECP云部署平台等。
+            6、使用的工具为：vsCode、chrome浏览器，git代码版本管理，mac等。
+          </text>
+        </view>
+        <view class='clear'></view>
+
+        <view class='led'>郑州市聚格科技有限公司</view>
+        <view class='position'>任职:【 前端工程师 】</view>
+        <view class='deadline'>期限:【 2016.9 — 2019.05 】</view>
+        <view class='JobDescription'>
+          <text>1、在职期间负责外包项目的需求整理、落地实施和产品迭代，并着手设计项目主要功能以及技术支持，同时协调ui、开发、测试共同推动项目及功能的完美落地。
+            2、使用的技术有：vue，微信小程序，react。
+            3、使用的工具为：vsCode、chrome浏览器，git代码版本管理，window电脑等。。
+          </text>
+        </view>
+        <view class='clear'></view>
+
+
+      </view>
+
+    </view>
+  </view>
+
+  <view class="flex-container">
+    <view class="flex-item flex-item1">
+      <image class='image' src='/imgs/resume/Project.png'></image>
+    </view>
+    <view class="flex-item flex-item2">
+
+      <view class='ledtop'>
+        <view class='led'>风行-阿里巴巴法务评审中心 </view>
+        <view class='position'>开发周期：2年</view>
+        <view class='deadline'>采用框架：react</view>
+        <view class='JobDescription'>
+          <text style="font-weight: 900;">项目亮点：</text>
+          <text>1.独立负责风行开发和迭代工作。
+            2.在风行对接其他系统时主动沟通，解决跨部门协调问题。
+            3.在与风行后端联调时主动探讨前后端联调解决方案，评估工时。
+            4.搭建cms内容管理平台实现风行配置化能力，大大减少了开发的工作量。
+            5.对在系统多次使用的相同UI抽离出业务组件，比如说评审点组件，不仅解决了代码冗余问题，也解决了由于React更 新过程是同步的造成的性能问题。
+          </text>
+        </view>
+        <view class='JobDescription'>
+          <text style="font-weight: 900;">我的收获：</text>
+          <text>
+            1.代码每次发布前经过主管cr变得更加符合代码规范。
+            2.相同逻辑的业务代码保留下来，可供开发其他系统使用。提高开发效率。
+            3.对与乐高的原理了解的更深，方便后续开发。
+            4.开发过程中对迭代进行提前设计，有利于整理思路。减少代码冗余。
+          </text>
+
+        </view>
+      </view>
+      <view class='clear'></view>
+
+      <view class='ledtop'>
+        <view class='led'>创新提案-阿里专利申请系统 </view>
+        <view class='position'>开发周期：30个工作日</view>
+        <view class='deadline'>采用框架：react</view>
+        <view class='JobDescription'>
+
+          <text style="font-weight: 900;">需求：</text>
+          <text>为解决业务痛点，提交专利审批效率和有效率并顺便拥抱新技术重构专利申请系统。</text>
+
+          <text>
+            开发过程&实现细节：
+            1.使用recore做路由配置，单页应用，数据流管理。对业务逻辑比较复杂，灵犀实现不了的地方做编码处理。
+            2.使用灵犀配置schema转为前端可视化页面。
+            3.使用jsx语法渲染页面，less文件样式修改,model.ts做数据模型定义和绑定交互事件，service.ts请求后端数据。
+            4.使用Tiny做富文本编辑器以做专利申请文章图片的编辑处理。
+            5.使用美杜莎实现多语言管理。
+            6.部分体验优化，比如防止用户重复打开同一提案专利。使用async和await串行加载改为并行加载提高加载效率等等。 7.通过git管理分支，通过def平台做工程的部署发布。
+          </text>
+        </view>
+      </view>
+      <view class='clear'></view>
+
+    </view>
+  </view>
+
+  <view class="flex-container">
+    <view class="flex-item flex-item1">
+      <image class='image' src='/imgs/resume/personal.png'></image>
+    </view>
+    <view class="flex-item flex-item2">
+      <view class='ledtop'>
+        <view class='JobDescription'>
+          <text>1.有HTML5开发的跨平台开发经验，有前端四年开发经验，精通jquery和vue，react等前端主流框架。
+            2.能兼容市面上的主流浏览器，能开发app ，微信公众号，小程序，后台管理，公司官网，能独立开发项目，按时按量完成需求文档的要求。
+            3.项目中可与后台联调测试，可与设计沟通需求，推进项目进程，项目熟练后可为公司培训新人。
+          </text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="flex-container">
+    <view class="flex-item flex-item1">
+      <image class='image' src='/imgs/resume/self-description.png'></image>
+    </view>
+    <view class="flex-item flex-item2">
+      <view class='ledtop'>
+        <view class='JobDescription'>
+          <text>
+            1.开心工作，快乐生活。
+            2.希望在工作中实现自己的价值。
+            3.爱工作也爱玩，追求平衡。
+          </text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="flex-container">
+    <view class="flex-item flex-item1">
+      <image class='image' src='/imgs/resume/Education.png'></image>
+    </view>
+    <view class="flex-item flex-item2">
+      <view class='ledtop'>
+
+        <text class='led'>河南交通职业技术学院（专科）</text>
+        <view class='position'>专业:【 工程造价 】</view>
+        <view class='deadline'>期限:【 2013.09 - 2016.09 】</view>
+        <view class='JobDescription'>
+          <text>react,vue,微信小程序
+          </text>
+        </view>
+        <view class='clear'></view>
+
+        <view class='led'>西南大学（本科）</view>
+        <view class='position'>专业:【计算机科学与技术】</view>
+        <view class='deadline'>期限:【 2017.8 - 2022.4 】</view>
+        <view class='JobDescription'>
+          <text>计算机基础应用</text>
+        </view>
+
+      </view>
+    </view>
+  </view>
+  <view class="flex-container">
+    <view class="flex-item flex-item1">
+      <image class='image' src='/imgs/resume/Education.png'></image>
+    </view>
+    <view class="flex-item flex-item2">
+      <view class='my-work'>
+        <view style="text-align: center;" bindtap="goXm">
+          <image class='logo' src='/imgs/logo@2x.png'></image>
+          <view>钢小秘 >>></view>
+        </view>
+        <view style="text-align: center;" bindtap="goGC">
+          <image class='logo' src='/imgs/aa.png'></image>
+          <view>钢厂直销 >>></view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+  <view class='clear'></view>
+  <view class='employment'>
+    <text style="font-weight: 900;">社交圈子：</text>
+    <text>
+      电话: 18621377074
+      GitHub（users）: mryanpengju
+    </text>
+  </view>
+
+  <view class='clear'></view>
+  <view class='enddec'>
+    © 2022 YanPengJu Corporation. All rights reserved.
+  </view>
+
+
+  <view class='end'></view>
+
+</view>
